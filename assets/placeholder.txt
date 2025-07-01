@@ -1,0 +1,14 @@
+This folder should contain the following images:
+
+1. gdg-logo.png - Google Developer Group logo
+2. hero-bg.jpg - Hero section background image
+3. conference.jpg - Conference image for the about section
+4. speaker1.jpg, speaker2.jpg, speaker3.jpg, speaker4.jpg - Speaker profile images
+5. venue.jpg - Image of JW Marriott Kolkata
+6. register-bg.jpg - Background image for registration section
+7. testimonial1.jpg, testimonial2.jpg, testimonial3.jpg - Testimonial author images
+8. sponsor1.png through sponsor6.png - Sponsor logos
+
+For a real implementation, you would need to add these images to the assets folder.
+
+Note: All images should be optimized for web to ensure fast loading times and good performance scores. 

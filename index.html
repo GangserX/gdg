@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCCD Kolkata '25 Hype Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="assets/gdg-logo.png" alt="GDG Logo" id="logo">
+                <span>GCCD Kolkata '25</span>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" id="closeMenu"></i>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#speakers">Speakers</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#venue">Venue</a></li>
+                    <li><a href="#register" class="register-btn">Register Now</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" id="openMenu"></i>
+        </nav>
+        
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Google Cloud Community Days</h1>
+                <h2>Kolkata 2025</h2>
+                <p class="tagline">Join the biggest cloud event in Eastern India!</p>
+                <div class="countdown" id="countdown">
+                    <div class="time-block">
+                        <span id="days">00</span>
+                        <span class="time-label">Days</span>
+                    </div>
+                    <div class="time-block">
+                        <span id="hours">00</span>
+                        <span class="time-label">Hours</span>
+                    </div>
+                    <div class="time-block">
+                        <span id="minutes">00</span>
+                        <span class="time-label">Minutes</span>
+                    </div>
+                    <div class="time-block">
+                        <span id="seconds">00</span>
+                        <span class="time-label">Seconds</span>
+                    </div>
+                </div>
+                <a href="#register" class="cta-button">Reserve Your Spot</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Why You Can't Miss GCCD Kolkata '25</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Google Cloud Community Days Kolkata is the premier cloud event in Eastern India, bringing together developers, IT professionals, and cloud enthusiasts for a day of learning, networking, and inspiration.</p>
+                    <p>This year's event will feature hands-on workshops, technical deep dives, and success stories from industry experts who have leveraged Google Cloud to transform their businesses.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">20+</span>
+                            <span class="stat-label">Speakers</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Attendees</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Sessions</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="assets/conference.jpg" alt="GCCD Conference">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="speakers" class="speakers">
+        <div class="container">
+            <h2 class="section-title">Featured Speakers</h2>
+            <div class="speaker-grid">
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="assets/speaker1.jpg" alt="Speaker 1">
+                    </div>
+                    <h3>Priya Sharma</h3>
+                    <p class="speaker-title">Google Cloud Developer Advocate</p>
+                    <p class="speaker-topic">Kubernetes at Scale: Lessons from the Field</p>
+                    <div class="speaker-social">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="assets/speaker2.jpg" alt="Speaker 2">
+                    </div>
+                    <h3>Rahul Mehta</h3>
+                    <p class="speaker-title">Cloud Architect, Tech Mahindra</p>
+                    <p class="speaker-topic">Building Resilient Microservices with GCP</p>
+                    <div class="speaker-social">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="assets/speaker3.jpg" alt="Speaker 3">
+                    </div>
+                    <h3>Aisha Khan</h3>
+                    <p class="speaker-title">ML Engineer, Flipkart</p>
+                    <p class="speaker-topic">Vertex AI: From Prototype to Production</p>
+                    <div class="speaker-social">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="assets/speaker4.jpg" alt="Speaker 4">
+                    </div>
+                    <h3>Vikram Singh</h3>
+                    <p class="speaker-title">CTO, CloudScale Solutions</p>
+                    <p class="speaker-topic">Serverless Architecture Patterns</p>
+                    <div class="speaker-social">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="more-speakers">
+                <p>And many more industry leaders and Google experts!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule" class="schedule">
+        <div class="container">
+            <h2 class="section-title">Event Schedule</h2>
+            <div class="schedule-tabs">
+                <button class="tab-btn active" data-tab="day1">Day 1</button>
+                <button class="tab-btn" data-tab="day2">Day 2</button>
+            </div>
+            <div class="schedule-content">
+                <div class="tab-content active" id="day1">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="time">9:00 AM</div>
+                            <div class="event">
+                                <h3>Registration & Breakfast</h3>
+                                <p>Pick up your badge and enjoy networking over breakfast</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="time">10:00 AM</div>
+                            <div class="event">
+                                <h3>Keynote: The Future of Cloud Computing</h3>
+                                <p>By Sundar Pichai (Virtual Address)</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="time">11:30 AM</div>
+                            <div class="event">
+                                <h3>Workshop: Getting Started with Google Cloud</h3>
+                                <p>Hands-on session for beginners</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="time">1:00 PM</div>
+                            <div class="event">
+                                <h3>Lunch & Networking</h3>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="time">2:00 PM</div>
+                            <div class="event">
+                                <h3>Panel Discussion: Cloud Migration Strategies</h3>
+                                <p>Industry experts share their experiences</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="time">4:00 PM</div>
+                            <div class="event">
+                                <h3>Technical Deep Dive: BigQuery & Data Analytics</h3>
+                                <p>Advanced session for data professionals</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="day2">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="time">9:30 AM</div>
+                            <div class="event">
+                                <h3>Breakfast & Networking</h3>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="time">10:30 AM</div>
+                            <div class="event">
+                                <h3>Workshop: Building Serverless Applications</h3>
+                                <p>Hands-on coding session</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="time">12:30 PM</div>
+                            <div class="event">
+                                <h3>Lunch Break</h3>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="time">1:30 PM</div>
+                            <div class="event">
+                                <h3>Technical Session: AI & ML on Google Cloud</h3>
+                                <p>Practical applications and case studies</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="time">3:30 PM</div>
+                            <div class="event">
+                                <h3>Closing Keynote: Building Your Career in Cloud</h3>
+                                <p>Inspirational talk by industry leaders</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="time">5:00 PM</div>
+                            <div class="event">
+                                <h3>Networking Mixer & Closing</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="venue" class="venue">
+        <div class="container">
+            <h2 class="section-title">Venue</h2>
+            <div class="venue-content">
+                <div class="venue-details">
+                    <h3>JW Marriott Hotel Kolkata</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 4A, J.B.S Haldane Avenue, Kolkata, West Bengal 700105</p>
+                    <p><i class="fas fa-calendar-alt"></i> March 15-16, 2025</p>
+                    <p><i class="fas fa-clock"></i> 9:00 AM - 5:00 PM</p>
+                    <p class="venue-description">Experience GCCD Kolkata '25 at the luxurious JW Marriott, featuring state-of-the-art conference facilities, high-speed WiFi, and a prime location in the heart of the city.</p>
+                    <a href="https://maps.google.com" target="_blank" class="venue-directions">Get Directions</a>
+                </div>
+                <div class="venue-image">
+                    <img src="assets/venue.jpg" alt="JW Marriott Kolkata">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="register" class="register">
+        <div class="container">
+            <h2 class="section-title">Register Now</h2>
+            <div class="register-content">
+                <div class="ticket-types">
+                    <div class="ticket-card">
+                        <h3>Early Bird</h3>
+                        <div class="price">₹1,999</div>
+                        <p class="price-note">Until December 31, 2024</p>
+                        <ul class="ticket-features">
+                            <li><i class="fas fa-check"></i> Full access to all sessions</li>
+                            <li><i class="fas fa-check"></i> Conference materials</li>
+                            <li><i class="fas fa-check"></i> Breakfast and lunch</li>
+                            <li><i class="fas fa-check"></i> Networking events</li>
+                        </ul>
+                        <a href="#" class="ticket-btn">Get Ticket</a>
+                    </div>
+                    <div class="ticket-card featured">
+                        <div class="featured-label">Most Popular</div>
+                        <h3>Standard</h3>
+                        <div class="price">₹2,999</div>
+                        <p class="price-note">Until February 28, 2025</p>
+                        <ul class="ticket-features">
+                            <li><i class="fas fa-check"></i> Full access to all sessions</li>
+                            <li><i class="fas fa-check"></i> Conference materials</li>
+                            <li><i class="fas fa-check"></i> Breakfast and lunch</li>
+                            <li><i class="fas fa-check"></i> Networking events</li>
+                            <li><i class="fas fa-check"></i> GCCD '25 T-shirt</li>
+                        </ul>
+                        <a href="#" class="ticket-btn">Get Ticket</a>
+                    </div>
+                    <div class="ticket-card">
+                        <h3>Premium</h3>
+                        <div class="price">₹4,999</div>
+                        <p class="price-note">Limited availability</p>
+                        <ul class="ticket-features">
+                            <li><i class="fas fa-check"></i> Full access to all sessions</li>
+                            <li><i class="fas fa-check"></i> Conference materials</li>
+                            <li><i class="fas fa-check"></i> Breakfast and lunch</li>
+                            <li><i class="fas fa-check"></i> Networking events</li>
+                            <li><i class="fas fa-check"></i> GCCD '25 T-shirt</li>
+                            <li><i class="fas fa-check"></i> Exclusive dinner with speakers</li>
+                            <li><i class="fas fa-check"></i> 1-year Google Cloud credits</li>
+                        </ul>
+                        <a href="#" class="ticket-btn">Get Ticket</a>
+                    </div>
+                </div>
+                <div class="group-discount">
+                    <h3>Coming with your team?</h3>
+                    <p>Get 20% off for groups of 5 or more. <a href="#">Contact us</a> for details.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Attendees Say</h2>
+            <div class="testimonial-slider" id="testimonialSlider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <p>"GCCD Kolkata was a game-changer for my career. The networking opportunities and technical sessions helped me level up my cloud skills dramatically."</p>
+                        <div class="testimonial-author">
+                            <img src="assets/testimonial1.jpg" alt="Testimonial Author">
+                            <div>
+                                <h4>Arjun Dasgupta</h4>
+                                <p>Software Engineer, TCS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <p>"As a startup founder, the insights I gained from GCCD helped us optimize our cloud infrastructure and cut costs by 40%. Absolutely worth attending!"</p>
+                        <div class="testimonial-author">
+                            <img src="assets/testimonial2.jpg" alt="Testimonial Author">
+                            <div>
+                                <h4>Meera Joshi</h4>
+                                <p>CTO, HealthTech Innovations</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <p>"The hands-on workshops were incredibly valuable. I implemented what I learned the very next week at work and it transformed our deployment process."</p>
+                        <div class="testimonial-author">
+                            <img src="assets/testimonial3.jpg" alt="Testimonial Author">
+                            <div>
+                                <h4>Rajiv Malhotra</h4>
+                                <p>DevOps Engineer, Infosys</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button id="prevBtn" class="slider-btn"><i class="fas fa-chevron-left"></i></button>
+                <div class="slider-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+                <button id="nextBtn" class="slider-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="sponsors">
+        <div class="container">
+            <h2 class="section-title">Our Sponsors</h2>
+            <div class="sponsor-grid">
+                <div class="sponsor-item">
+                    <img src="assets/sponsor1.png" alt="Sponsor 1">
+                </div>
+                <div class="sponsor-item">
+                    <img src="assets/sponsor2.png" alt="Sponsor 2">
+                </div>
+                <div class="sponsor-item">
+                    <img src="assets/sponsor3.png" alt="Sponsor 3">
+                </div>
+                <div class="sponsor-item">
+                    <img src="assets/sponsor4.png" alt="Sponsor 4">
+                </div>
+                <div class="sponsor-item">
+                    <img src="assets/sponsor5.png" alt="Sponsor 5">
+                </div>
+                <div class="sponsor-item">
+                    <img src="assets/sponsor6.png" alt="Sponsor 6">
+                </div>
+            </div>
+            <div class="become-sponsor">
+                <p>Interested in sponsoring GCCD Kolkata '25?</p>
+                <a href="#" class="sponsor-btn">Become a Sponsor</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Who should attend GCCD Kolkata '25?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>GCCD Kolkata is perfect for developers, IT professionals, cloud architects, data scientists, students, and anyone interested in cloud computing and Google technologies.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do I need prior experience with Google Cloud?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Not at all! We have sessions for all skill levels, from beginners to advanced practitioners. There will be introductory workshops for those new to Google Cloud.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Will there be opportunities for networking?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! GCCD Kolkata '25 includes dedicated networking sessions, a networking lunch, and an evening mixer to connect with peers, speakers, and Google experts.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Are there any student discounts available?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we offer a 50% discount for students with a valid ID. Please contact us with proof of your student status to receive the discount code.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Will the sessions be recorded?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Select sessions will be recorded and made available to registered attendees after the event. However, workshops and hands-on sessions will not be recorded.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter for GCCD Kolkata '25 updates, speaker announcements, and early bird ticket notifications.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/gdg-logo.png" alt="GDG Logo">
+                    <p>Google Cloud Community Days Kolkata 2025</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Event</h3>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#speakers">Speakers</a></li>
+                            <li><a href="#schedule">Schedule</a></li>
+                            <li><a href="#venue">Venue</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Resources</h3>
+                        <ul>
+                            <li><a href="#">Code of Conduct</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Sponsorship</a></li>
+                            <li><a href="#">Past Events</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Connect</h3>
+                        <ul>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Become a Volunteer</a></li>
+                            <li><a href="#">Media Kit</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Google Developer Groups Kolkata. All rights reserved.</p>
+                <p>This is not an official Google event. GDG Kolkata is an independent group.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
